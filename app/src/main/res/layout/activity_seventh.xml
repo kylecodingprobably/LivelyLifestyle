@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".gainMuscle">
+
+    <ImageButton
+        android:id="@+id/imageButton10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/btn_star"
+        tools:layout_editor_absoluteX="172dp"
+        tools:layout_editor_absoluteY="343dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="1382dp"
+        android:layout_height="1497dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/livelylifestylemenubg" />
+
+    <ImageButton
+        android:id="@+id/imageButton35"
+        android:layout_width="64dp"
+        android:layout_height="83dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/livelylifestyletinylogo" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="263dp"
+        android:layout_height="87dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.043"
+        app:srcCompat="@drawable/livelylifestylegainmusclebutton" />
+
+    <ImageButton
+        android:id="@+id/RegularPlanButton"
+        android:layout_width="160dp"
+        android:layout_height="53dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.027"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.3"
+        app:srcCompat="@drawable/livelylifestyleregularplan" />
+
+    <ImageButton
+        android:id="@+id/CleanBulkPlanButton"
+        android:layout_width="189dp"
+        android:layout_height="54dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.072"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.462"
+        app:srcCompat="@drawable/livelylifestylecleanbulkplan" />
+
+    <ImageButton
+        android:id="@+id/DirtyBulkPlanButton"
+        android:layout_width="206dp"
+        android:layout_height="56dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.034"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.702"
+        app:srcCompat="@drawable/livelylifestyledirtybulkplan" />
+
+    <ImageButton
+        android:id="@+id/imageButton11"
+        android:layout_width="370dp"
+        android:layout_height="93dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.17"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.83"
+        app:srcCompat="@drawable/livelylifestyledirtybulkdetails" />
+
+    <ImageButton
+        android:id="@+id/imageButton13"
+        android:layout_width="387dp"
+        android:layout_height="107dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.588"
+        app:srcCompat="@drawable/livelylifestylecleanbulkdetails" />
+
+    <ImageButton
+        android:id="@+id/imageButton14"
+        android:layout_width="371dp"
+        android:layout_height="56dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.175"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.38"
+        app:srcCompat="@drawable/livelylifestyleregulardetails" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="268dp"
+        android:layout_height="57dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.517"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.17"
+        app:srcCompat="@drawable/livelylifestylemealplanbuttontwo" />
+
+    <ImageButton
+        android:id="@+id/BackButton"
+        android:layout_width="155dp"
+        android:layout_height="71dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/livelylifestylebackbutton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

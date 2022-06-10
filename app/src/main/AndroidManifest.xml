@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.livelylifestyle">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LivelyLifestyle">
+        <activity
+            android:name=".loseWeightMajorPlan"
+            android:exported="false" />
+        <activity
+            android:name=".loseWeightStandardPlan"
+            android:exported="false" />
+        <activity
+            android:name=".loseWeightMinorPlan"
+            android:exported="false" />
+        <activity
+            android:name=".gainMuscleRegularBulkPlan"
+            android:exported="false" />
+        <activity
+            android:name=".gainMuscleDirtyBulkPlan"
+            android:exported="false" />
+        <activity
+            android:name=".gainMuscleCleanBulkPlan"
+            android:exported="false" />
+        <activity
+            android:name=".improveEnduranceAdvancedPlan"
+            android:exported="false" />
+        <activity
+            android:name=".improveEnduranceIntermediatePlan"
+            android:exported="false" />
+        <activity
+            android:name=".improveEnduranceBeginnerPlan"
+            android:exported="false" />
+        <activity
+            android:name=".loseWeightAdvancedPlan"
+            android:exported="false" />
+        <activity
+            android:name=".loseWeightIntermediatePlan"
+            android:exported="false" />
+        <activity
+            android:name=".loseweightBeginnerPlan"
+            android:exported="false" />
+        <activity
+            android:name=".gainMuscleAdvancedPlan"
+            android:exported="false" />
+        <activity
+            android:name=".gainMuscleIntermediatePlan"
+            android:exported="false" />
+        <activity
+            android:name=".gainMuscleBeginnerPlan"
+            android:exported="false" />
+        <activity
+            android:name=".loseWeightType"
+            android:exported="false" />
+        <activity
+            android:name=".gainMuscleType"
+            android:exported="false" />
+        <activity
+            android:name=".improveEndurance"
+            android:exported="false" />
+        <activity
+            android:name=".loseWeight"
+            android:exported="false" />
+        <activity
+            android:name=".gainMuscle"
+            android:exported="false"
+            android:label="@string/title_activity_seventh"
+            android:theme="@style/Theme.LivelyLifestyle.NoActionBar" />
+        <activity
+            android:name=".settings"
+            android:exported="false" />
+        <activity
+            android:name=".createPlan"
+            android:exported="false" />
+        <activity
+            android:name=".mealPlan"
+            android:exported="false" />
+        <activity
+            android:name=".workoutPlan"
+            android:exported="false" />
+        <activity
+            android:name=".logs"
+            android:exported="false" />
+        <activity
+            android:name=".homeScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
